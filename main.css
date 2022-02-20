@@ -17,7 +17,7 @@ body{
 }
 .category-card{
     border-radius: var(--lightround);
-    background: #212121;
+    background: var(--darkergrey);
     padding: 1rem;
     color: var(--lightgrey);
     display: flex;
@@ -26,7 +26,6 @@ body{
 }
 .card-img{
     max-width: 340px;
-
 }
 .category-content{
     text-align: left;
