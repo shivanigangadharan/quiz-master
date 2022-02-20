@@ -7,14 +7,14 @@ body{
 .question-page{
     padding: 2rem 6rem;
     width: clamp(300px, 80vw, 1000px);
-    background: #212121;
+    background: var(--darkergrey);
 }
 .subtext{
     justify-content: space-between;
     font-size: 1.2rem;
 }
 .heading{
-    color: white;
+    color: var(--white);
     text-align: center;
 }
 .quest{
@@ -31,7 +31,7 @@ body{
     box-shadow: none;
     border: none;
     cursor: pointer;
-    box-shadow: 1px 1px 8px 2px #161616;
+    box-shadow: 1px 1px 8px 2px var(--shadow);
 }
 .stack-item:hover{
     background: var(--darkgrey);
