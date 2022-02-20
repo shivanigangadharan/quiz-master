@@ -22,7 +22,9 @@ body{
     margin: 2rem 0rem;
     text-align: left;
 }
-.container-stack{
+.container-list ul{
+    color: var(--lightgrey);
+    border-left: 2px solid var(--grey);
 }
 .stack-item{
     background: var(--darkergrey);
@@ -47,7 +49,11 @@ body{
     margin: 2rem 0rem;
     box-shadow: 1px 1px 8px 2px #161616;
 }
-
+.next:hover{
+    background: var(--darkgrey);
+    color: var(--white);
+    transition-duration: 0.3s;
+}
 .center{
     display: flex;
     flex-direction: column;

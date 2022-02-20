@@ -37,3 +37,12 @@ a{
 a:hover{
     color: var(--lightlavender);
 }
+.rules{
+    background: var(--darkergrey);
+    color: var(--lavender);
+    margin-bottom: 2rem;
+}
+.rules:hover{
+    box-shadow: 1px 1px 3px 1px var(--shadow);
+    color: var(--lightlavender);
+}
