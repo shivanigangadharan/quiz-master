@@ -12,38 +12,32 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://style-ui.netlify.app/components.css" />
-    <script src="main.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;800&family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <h1 class="heading"> Trivia Bank </h1>
-    <p class="subheading p-lg">A brief description of the quiz and its features and what can the user expect from this site.</p>
+    <div class="home-page flex">
+        <div>
+            <h1 class="heading"> Trivia Bank. </h1>
+            <div class="subheading p-md">Welcome to Trivia Bank, a one-stop location to test your knowledge on a variety of trivia ranging from stock
+                markets, tv shows, health and more. Read the rules before viewing the categories and attempting a quiz.</div>
+            <div class="options">
+                <a href="./pages/rules/rules.html">
+                    <button class="btn rules">Read the rules</button>
+                </a>
+                <a href="./pages/categories/categories.html">
+                    <button class="btn rules">View categories</button>
+                </a>
 
-    <a href="./pages/rules/rules.html">
-        <button class="btn rules">Read the rules</button>
-    </a>
-
-    <div class="category-container">
-        <div class="category-card">
-            <img class="card-img" src="./assets/stocks.jpg">
-            <div class="category-content">
-                <h3>Stock market quiz</h3>
-                <p class="grey-text">Here's a quiz that tests your fundamental knowledge about the stock market. The level is from absolute beginners
-                    to intermediate.</p>
-                <p>5 questions</p>
-                <a href="./pages/question/question.html">Take this quiz</a>
             </div>
         </div>
-        <div class="category-card">
-            <img class="card-img" src="./assets/healthy.jpg">
-            <div class="category-content">
-                <h3> Know your body quiz</h3>
-                <p class="grey-text">This quiz is for anyone who wants to know facts about their body and how to keep it healthy. The questions
-                    range from mental, physical and emotional health.</p>
-                <p>5 questions</p>
-                <a href="./pages/question/question.html">Take this quiz</a>
-            </div>
-        </div>
+        <img src="./assets/bulb.png">
+    </div>
+
+
 
     </div>
     <script src="./pages/question/question.js"></script>
