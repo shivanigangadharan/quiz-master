@@ -18,9 +18,6 @@ body{
     text-align: left;
     margin-bottom: 2rem;
 }
-.options{
-    width: clamp(300px, 35vw, 900px);
-}
 a{
     color: var(--lavender);
     cursor: pointer;
