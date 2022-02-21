@@ -1,5 +1,6 @@
 # [Trivia Bank](https://trivia-bank.netlify.app/index.html)
 Welcome to Trivia Bank, a one-stop location to test your knowledge on a variety of trivia ranging from stock markets, tv shows, health and more. Read the rules before viewing the categories and attempting a quiz.
+
 ![image](https://user-images.githubusercontent.com/30795425/155004702-e00a0c45-b183-46d1-b380-da27b70709da.png)
 
 ## [Rules](https://trivia-bank.netlify.app/pages/rules/rules.html)
